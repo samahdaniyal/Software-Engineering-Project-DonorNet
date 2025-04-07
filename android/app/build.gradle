@@ -42,3 +42,6 @@ android {
 flutter {
     source = "../.."
 }
+
+// This is where you define the plugins block
+apply plugin: 'com.google.gms.google-services'
